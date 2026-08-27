@@ -1,0 +1,61 @@
+# ==========================================
+# ATEM-Net Project Specific .gitignore
+# ==========================================
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints & autosaves
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ChromaDB & Local Vector Storage Runtime Database
+simulation_db/
+chroma_db/
+mock_db.json
+*.sqlite3
+*.bin
+
+# Dynamic Runtime Persona State Files
+persona_profile.json
+notebook_persona.json
+dataset_persona.json
+
+# Environment files & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# IDE & Editor metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Temporary & Helper Patching Scripts
+patch_notebook.py
+fix_stdout.py
+remove_improvements.py
+add_improvements.py
+add_dataset_cell.py
+fix_contradiction.py
+convert_to_html.py
