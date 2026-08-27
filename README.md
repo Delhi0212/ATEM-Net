@@ -234,4 +234,4 @@ The evaluation suite utilizes a synthetic longitudinal personal-memory dataset c
 
 ## License
 
-License information will be added after the project owner confirms the preferred open-source license.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
